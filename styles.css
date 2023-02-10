@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=M+PLUS+1p:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+}
+html{
+    font-size: 18px;
+}
+header{
+    font-size: 1.5rem;
+    text-align: right;
+    background-color: #BE3144;
+    color: white;
+    padding: 18px;
+    font-family: 'Open Sans', sans-serif;
+    position: sticky;
+    top: 0;
+}
+header a{
+    color: white;
+}
+nav a:hover{
+    color: #31beab;
+    transition: 0.3s;
+}
+a{
+    padding: 0 10px;
+    font-size: 1.3rem;
+    color: black;
+    text-decoration: none;
+}
+.introduction h1, p{
+    text-align: center;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+.introduction h1, .contact-me h1{
+    font-weight: 100000;
+    font-size: 3.5rem;
+
+}
+.introduction p{
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #BE3040;
+    margin-top: -15px;
+}
+.introduction{
+    padding: 200px 0px 270px 0px ;
+    background-color: #27272A;
+    color: white;
+}
+.projects{
+    text-align: center;
+    background-color: #e0e0e0;
+}
+
+.projects h1{
+    padding: 50px 0;
+    font-family: 'M PLUS 1p', sans-serif;
+    background-color: #005BAC;
+    color: white;
+
+
+}
+
+.pics-and-links{
+    display: grid;
+    grid-template-columns: repeat(3,33.3%); 
+    align-items: baseline;
+}
+
+figure{
+    padding: 40px 70px;
+}
+img{
+    width: 210px;
+    max-height: auto;
+}
+
+.contact-me{
+    text-align: center;
+    background-color: #27272A;
+}
+.contact-me a, .contact-me h1, .contact-me p{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.contact-me h1{
+    padding: 50px;
+    font-style: bold;
+}
+.contact-me p{
+    font-size: 1.4rem;
+    padding: 5px 0;
+}
+footer{
+    background-color: #27272A;
+    border-top: 5px solid #BE3040;
+    color: white;
+    padding: 30px 0;
+}
+.padding{
+    padding: 50px;
+}
+img{
+    border-radius: 1cm;
+}
+figure:hover{
+    /* background-color: #6ab04c; */
+    background-color: #7ed6df;
+    transition: 0.5s;
+}
+.contact-me a:hover{
+    color: #44bd32;
+}
+@media (max-width: 600px) {
+    .pics-and-links{
+        display: flex;
+        flex-direction: column;
+    }
+}

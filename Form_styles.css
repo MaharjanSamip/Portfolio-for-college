@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=M+PLUS+1p:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+}
+html{
+    font-size: 18px;
+}
+header{
+    font-size: 1.5rem;
+    text-align: right;
+    background-color: #BE3144;
+    color: white;
+    padding: 18px;
+    font-family: 'Open Sans', sans-serif;
+    position: sticky;
+    top: 0;
+}
+
+a{
+    padding: 0 10px;
+    text-decoration: none;
+}
+.introduction h1, p{
+    text-align: center;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+.introduction h1{
+    font-weight: 100000;
+    font-size: 3.5rem;
+
+}
+.introduction p{
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #BE3040;
+    margin-top: -15px;
+}
+.introduction{
+    padding: 200px 0px 270px 0px ;
+    background-color: #27272A;
+    color: white;
+}
+
+footer{
+    background-color: #27272A;
+    border-top: 5px solid #BE3040;
+    color: white;
+    padding: 30px 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=M+PLUS+1p:wght@500&display=swap');
+
+h1,p{
+   text-align: center;
+   color: white;
+   font-family: 'M PLUS 1p', sans-serif;
+}
+h1{
+  margin-top: 50px;
+  margin-bottom: 0px;
+  font-size: 2.5rem;
+}
+p{
+  font-size: 1.5rem;
+  margin-top: 1px;
+  margin-bottom: 30px;
+}
+form{
+  width: 45vw;
+  margin: 90px auto;
+  background-color: rgba(0, 25, 50, 0.8);
+  font-size: 1.5rem;
+}
+fieldset{
+  border: 0;
+}
+
+label,input,select{
+  display: block;
+}
+
+label{
+  margin: 20px 0;
+}
+
+body{
+  background-image: linear-gradient(#005BAC, #aca700) ; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  font-family: 'Fredoka One', cursive;
+}
+
+input, textarea {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  color: #000000;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 3em;
+}
+input[type="radio"]{
+  display: inline-block;
+  width: 4%;
+  margin-right: 8px;
+}
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+.Books{
+  width: unset;
+  display: inline;
+  width: 25px;
+  margin: 0 0 0.8em 0 ;
+  vertical-align: middle;
+}
+input[type="submit"]{
+  background-color: #008b4d;
+  color: #ffffff;
+  margin-top: 2em;
+}
+
+@media (max-width: 600px){
+  form{
+
+    width: 90%;
+    margin: 50px auto;
+    font-size: 1.5rem;
+  }
+}

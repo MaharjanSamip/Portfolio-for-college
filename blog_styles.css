@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=M+PLUS+1p:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+}
+html{
+    font-size: 18px;
+}
+header{
+    font-size: 1.5rem;
+    text-align: right;
+    background-color: #BE3144;
+    color: white;
+    padding: 18px;
+    font-family: 'Open Sans', sans-serif;
+    position: sticky;
+    top: 0;
+}
+header a{
+    color: white;
+}
+a{
+    padding: 0 10px;
+    text-decoration: none;
+}
+.introduction h1, p{
+    text-align: center;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+.introduction h1{
+    
+    font-weight: 100000;
+    font-size: 3.5rem;
+
+}
+
+.introduction{
+    padding: 200px 0px 270px 0px ;
+    background-color: #27272A;
+    color: white;
+}
+.projects{
+    text-align: center;
+}
+
+.projects h1{
+    padding: 40px 0;
+    font-family: 'M PLUS 1p', sans-serif;
+
+}
+
+.Blogs{
+    background-color: #FEFEFE;
+    margin: 0 100px;
+}
+.blog h2, .blog p{
+    text-align: left;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+.blog p{
+    font-style: italic;
+}
+.blog{
+    margin: 27px;
+    padding: 20px 5px;
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    border: 2px solid #262626;
+}
+.projects h1{
+    background-color: #005BAC;
+    color: white;
+}
+footer{
+    background-color: #27272A;
+    border-top: 5px solid #BE3040;
+    color: white;
+    padding: 30px 0;
+}
+.read-more{
+    text-align: left;
+    font-family: 'M PLUS 1p', sans-serif;
+    padding: 10px;
+    border-radius: 40px;
+    width:125px;
+    color: black;
+}
+.read-more:hover{
+    background-color: yellow;
+    transition: 0.5s;
+}
+@media (max-width: 600px){
+    .blog{
+        margin: 20px -70px;
+        padding: 1px 1px;
+        background-color: #e0e0e0;
+        border-radius: 25px;
+        border: 2px solid #262626;
+    }
+}
